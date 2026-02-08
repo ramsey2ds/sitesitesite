@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELIX - Créateur Digital & Innovateur</title>
+    <meta name="description" content="Portfolio de Max Libertium - Créateur digital passionné par l'innovation et le design exceptionnel">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Newsreader:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#accueil" class="nav-logo">
+                <span class="nav-logo-icon">💜</span>
+                <span>ELIX</span>
+            </a>
+            <div class="nav-menu">
+                <a href="#accueil" class="nav-link active">Accueil</a>
+                <a href="#apropos" class="nav-link">À Propos</a>
+                <a href="#expertises" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-cta">Démarrer un projet</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="accueil" class="hero">
+        <div class="hero-background">
+            <div class="hero-grid"></div>
+            <canvas id="particlesCanvas"></canvas>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="hero-badge-dot"></span>
+                Disponible pour de nouveaux projets
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="hero-title-line">
+                    <span class="hero-title-word">Développement Web</span>
+                </span>
+                <span class="hero-title-line">
+                    <span class="hero-title-word">& <span class="hero-title-gradient">Solutions Digitales</span></span>
+                </span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                Je transforme vos idées en expériences digitales exceptionnelles. 
+                Design moderne, code performant, résultats mesurables.
+            </p>
+            
+            <div style="display: inline-flex; align-items: center; gap: 1rem; margin-bottom: 2rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #10b981, #059669); border-radius: 50px; font-weight: 600; font-size: 0.938rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" style="width: 20px; height: 20px; stroke-width: 2.5;">
+                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                <span>Devis 100% Gratuit & Sans Engagement</span>
+            </div>
+            
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">
+                    <span class="btn-text">Démarrer votre projet</span>
+                    <span class="btn-icon">→</span>
+                </a>
+                <a href="#expertises" class="btn btn-secondary">
+                    <span class="btn-text">Découvrir mes services</span>
+                </a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="hero-stat-number" data-target="4">4</div>
+                    <div class="hero-stat-label">Projets Livrés</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-number" data-target="3">3</div>
+                    <div class="hero-stat-label">Ans d'Expérience</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-number">100%</div>
+                    <div class="hero-stat-label">Satisfaction Client</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <div class="hero-scroll-line"></div>
+            <span class="hero-scroll-text">Défiler</span>
+        </div>
+    </section>
+
+    <section id="apropos" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">À Propos</span>
+                <h2 class="section-title">Développeur passionné, créateur d'expériences</h2>
+                <p class="section-description">
+                    Spécialisé dans la création de solutions web modernes et performantes
+                </p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="code-image.png" alt="Code en développement" style="width: 100%; height: 100%; object-fit: cover; border-radius: 1rem;">
+                        <div class="about-image-overlay"></div>
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <h3>
+                        Designer passionné,<br>
+                        développeur créatif,<br>
+                        <span class="highlight">penseur stratégique</span>
+                    </h3>
+                    
+                    <div class="about-text">
+                        <p>
+                            Bonjour, <strong>ELIX</strong> vous propose ses services digitaux basés en France. 
+                            Depuis plus de 3 ans, je façonne des expériences digitales qui allient 
+                            esthétique raffinée et performance technique exceptionnelle.
+                        </p>
+                        <p>
+                            Ma philosophie ? Chaque projet est une opportunité de repousser les limites 
+                            du possible. Je ne crée pas simplement des sites web ou des applications, 
+                            je crée des écosystèmes digitaux qui racontent des histoires et créent 
+                            des connexions émotionnelles authentiques avec vos utilisateurs.
+                        </p>
+                        <p>
+                            Mon approche combine design thinking, innovation technologique et une 
+                            obsession pour les détails. Le résultat ? Des solutions digitales qui 
+                            ne se contentent pas de fonctionner, mais qui excellent et inspirent.
+                        </p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number" data-target="4">4</div>
+                            <div class="stat-label">Projets Réalisés</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-target="3">3</div>
+                            <div class="stat-label">Années d'Expérience</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-target="100">100</div>
+                            <div class="stat-label">% Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertises" class="expertises section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Mes Services</span>
+                <h2 class="section-title">Ce que je peux faire pour vous</h2>
+                <p class="section-description">
+                    Des solutions complètes pour tous vos besoins digitaux
+                </p>
+            </div>
+            
+            <div class="expertises-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="expertise-title">Design UI/UX</h3>
+                    <p class="expertise-description">
+                        Création d'interfaces intuitives et esthétiques qui placent l'utilisateur au cœur 
+                        de chaque décision. Du wireframe au prototype haute-fidélité.
+                    </p>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="expertise-title">Développement Web</h3>
+                    <p class="expertise-description">
+                        Code propre, performant et évolutif. Technologies modernes pour des sites web 
+                        rapides, accessibles et optimisés SEO.
+                    </p>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="expertise-title">Stratégie Digitale</h3>
+                    <p class="expertise-description">
+                        Conseil et accompagnement pour transformer votre vision en succès digital. 
+                        Analyse, positionnement et roadmap sur-mesure.
+                    </p>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 1v6m0 6v6m7.07-13.07l-4.24 4.24m-5.66 0L4.93 4.93m14.14 14.14l-4.24-4.24m-5.66 0l-4.24 4.24"/>
+                        </svg>
+                    </div>
+                    <h3 class="expertise-title">Branding</h3>
+                    <p class="expertise-description">
+                        Création d'identités visuelles fortes et cohérentes qui racontent votre histoire 
+                        et marquent les esprits durablement.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Contact</span>
+                <h2 class="section-title">Démarrons votre projet ensemble</h2>
+                <p class="section-description">
+                    💜 Devis 100% gratuit et sans engagement · Une idée en tête ? Discutons-en !
+                </p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Parlons de votre projet</h3>
+                    <p>
+                        Je suis toujours à la recherche de nouveaux défis passionnants. 
+                        Que vous ayez un projet bien défini ou simplement une idée, 
+                        je serais ravi d'en discuter avec vous.
+                    </p>
+                    
+                    <ul class="contact-details">
+                        <li class="contact-detail">
+                            <div class="contact-detail-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" style="width: 24px; height: 24px; stroke-width: 2;">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-detail-info">
+                                <strong>Email</strong>
+                                <span><a href="mailto:contact@elix-dev.fr">contact@elix-dev.fr</a></span>
+                            </div>
+                        </li>
+                        
+                        <li class="contact-detail">
+                            <div class="contact-detail-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" style="width: 24px; height: 24px; stroke-width: 2;">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-detail-info">
+                                <strong>Localisation</strong>
+                                <span>Paris, France</span>
+                            </div>
+                        </li>
+                        
+                        <li class="contact-detail">
+                            <div class="contact-detail-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" style="width: 24px; height: 24px; stroke-width: 2;">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="contact-detail-info">
+                                <strong>Disponibilité</strong>
+                                <span>24/24 - Réponse en moins d'une heure!</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <input type="hidden" name="access_key" value="bbe6e592-f8cf-4315-ae71-3c2587c2f9ae">
+                        <input type="hidden" name="email" value="elix@outlook.fr">
+                        <input type="hidden" name="subject" value="Message venant du site">
+                        <input type="hidden" name="from_name" value="ELIX - DEVELOPPEMENT">
+                        
+                        <div class="form-group">
+                            <label for="nom" class="form-label">Nom complet</label>
+                            <input type="text" id="nom" name="nom" class="form-input" placeholder="Jean Dupont" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email_user" class="form-label">Email</label>
+                            <input type="email" id="email_user" name="email_user" class="form-input" placeholder="jean@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telephone" class="form-label">
+                                Téléphone <span style="opacity: 0.6; font-weight: 400;">(optionnel)</span>
+                            </label>
+                            <input type="tel" id="telephone" name="telephone" class="form-input" placeholder="+33 6 12 34 56 78">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget" class="form-label">
+                                Budget estimé <span style="opacity: 0.6; font-weight: 400;">(optionnel - Devis gratuit)</span>
+                            </label>
+                            <select id="budget" name="budget" class="form-select">
+                                <option value="">Sélectionnez une fourchette</option>
+                                <option value="< 1000€">Moins de 1000€</option>
+                                <option value="1000€ - 3000€">1000€ - 3000€</option>
+                                <option value="3000€ - 5000€">3000€ - 5000€</option>
+                                <option value="5000€ - 10000€">5000€ - 10000€</option>
+                                <option value="> 10000€">Plus de 10000€</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Parlez-moi de votre projet..." required></textarea>
+                        </div>
+                        
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        
+                        <button type="submit" class="form-submit btn-submit">
+                            <span class="btn-text">Envoyer le message</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" style="width: 20px; height: 20px; stroke-width: 2;">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>💜 ELIX</h3>
+                    <p class="footer-tagline">
+                        Développeur web passionné par l'innovation et l'excellence. 
+                        Transformons ensemble vos idées en réalité digitale.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width: 18px; height: 18px;">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width: 18px; height: 18px;">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width: 18px; height: 18px;">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Navigation</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À Propos</a></li>
+                        <li><a href="#expertises">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#expertises">Développement Web</a></li>
+                        <li><a href="#expertises">Design UI/UX</a></li>
+                        <li><a href="#expertises">SEO & Performance</a></li>
+                        <li><a href="#expertises">Maintenance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Légal</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#" id="cgvLink">Conditions Générales</a></li>
+                        <li><a href="#" id="mentionsLink">Mentions Légales</a></li>
+                        <li><a href="#" id="confidentialiteLink">Confidentialité</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 ELIX. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#" id="cgvLinkBottom">CGV</a>
+                    <a href="#" id="mentionsLinkBottom">Mentions Légales</a>
+                    <a href="#" id="confidentialiteLinkBottom">Confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modal" id="cgvModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title">Conditions Générales de Vente</h2>
+                <button class="modal-close" id="closeCGV" aria-label="Fermer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="modal-content">
+                <section class="cgv-section">
+                    <h3>Article 1 — Objet et champ d'application</h3>
+                    <p>Les présentes conditions générales de vente (ci-après « CGV ») régissent l'ensemble des prestations fournies par ELIX  à ses clients. Toute commande implique l'acceptation sans réserve des présentes CGV.</p>
+                    <p>Ces conditions s'appliquent à l'exclusion de toutes autres conditions, notamment celles du client, sauf accord écrit et préalable de notre part.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 2 — Services proposés</h3>
+                    <p>ELIX propose les services suivants :</p>
+                    <ul>
+                        <li>Design d'interfaces UI/UX (wireframes, maquettes, prototypes interactifs)</li>
+                        <li>Développement de sites web et applications (front-end, back-end, intégration)</li>
+                        <li>Conseil en stratégie digitale et innovation</li>
+                        <li>Création d'identité visuelle et branding</li>
+                    </ul>
+                    <p>Les prestations sont détaillées dans un devis personnalisé établi pour chaque projet.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 3 — Devis et commandes</h3>
+                    <p>Tout projet fait l'objet d'un devis gratuit et sans engagement, valable 30 jours. La commande ne devient ferme et définitive qu'après signature du devis par le client et versement de l'acompte prévu.</p>
+                    <p>Toute modification demandée en cours de projet fera l'objet d'un avenant au devis initial, pouvant entraîner une révision des délais et des tarifs.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 4 — Tarifs et modalités de paiement</h3>
+                    <p>Les tarifs sont exprimés en euros (€) et hors taxes. Ils sont fermes et non révisables pendant la durée d'exécution de la prestation, sauf modifications substantielles du projet à la demande du client.</p>
+                    <p><strong>Modalités de paiement :</strong></p>
+                    <ul>
+                        <li>Acompte de 40% à la signature du devis</li>
+                        <li>40% à mi-parcours du projet (validation des maquettes ou phase intermédiaire)</li>
+                        <li>Solde de 20% à la livraison finale</li>
+                    </ul>
+                    <p>Le paiement s'effectue par virement Paypal, sous 15 jours suivant la date d'émission de la facture. Tout retard de paiement entraînera l'application de pénalités de retard au taux légal en vigueur.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 5 — Délais d'exécution</h3>
+                    <p>Les délais d'exécution sont indiqués à titre indicatif dans le devis et courent à compter de la réception de l'acompte et de l'ensemble des éléments nécessaires à la réalisation du projet.</p>
+                    <p>Tout retard dans la fourniture d'éléments par le client entraîne un report proportionnel des délais de livraison. ELIX ne saurait être tenu responsable des conséquences d'un retard de livraison dû à un cas de force majeure.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 6 — Propriété intellectuelle</h3>
+                    <p>Les créations réalisées restent la propriété intellectuelle d'ELIX jusqu'au paiement intégral du prix convenu. Une fois le paiement effectué, le client obtient la cession des droits d'exploitation nécessaires à l'usage convenu.</p>
+                    <p>ELIX conserve le droit d'utiliser les créations réalisées à des fins de promotion (portfolio, réseaux sociaux, présentations commerciales), sauf demande contraire expresse du client.</p>
+                    <p>Toute reproduction ou exploitation non autorisée des créations constitue une contrefaçon sanctionnée par le Code de la Propriété Intellectuelle.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 7 — Garanties et responsabilités</h3>
+                    <p>ELIX s'engage à réaliser les prestations avec soin et professionnalisme, conformément aux règles de l'art et aux standards du marché. Les travaux sont garantis exempts de vices cachés.</p>
+                    <p>La responsabilité d'ELIX ne peut être engagée qu'en cas de faute prouvée et est limitée au montant de la prestation facturée. ELIX ne saurait être tenu responsable des dommages indirects (perte de chiffre d'affaires, préjudice commercial, etc.).</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 8 — Confidentialité</h3>
+                    <p>ELIX s'engage à garder strictement confidentielles toutes les informations qui lui seraient communiquées par le client dans le cadre de la réalisation de la prestation.</p>
+                    <p>Cette obligation de confidentialité subsiste pendant toute la durée du contrat et pendant 5 ans après sa fin, quelle qu'en soit la cause.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 9 — Résiliation</h3>
+                    <p>En cas de manquement grave de l'une des parties à ses obligations, l'autre partie peut résilier le contrat de plein droit 15 jours après l'envoi d'une mise en demeure restée sans effet.</p>
+                    <p>En cas de résiliation à l'initiative du client, les sommes déjà versées restent acquises à ELIX à titre de dédommagement. Les travaux déjà réalisés seront facturés au prorata.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 10 — Litiges et juridiction compétente</h3>
+                    <p>Les présentes CGV sont soumises au droit français. En cas de litige, les parties s'efforceront de trouver une solution amiable. À défaut, les tribunaux de Paris seront seuls compétents.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Article 11 — Dispositions diverses</h3>
+                    <p>Si une clause des présentes CGV était déclarée nulle ou inapplicable, elle serait réputée non écrite sans que cela n'affecte la validité des autres clauses.</p>
+                    <p>ELIX se réserve le droit de modifier les présentes CGV à tout moment. Les CGV applicables sont celles en vigueur à la date de signature du devis.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>Contact</h3>
+                    <p>Pour toute question relative à ces conditions générales de vente :</p>
+                    <p><strong>Email :</strong> <a href="mailto:contact@elix-dev.fr">contact@elix-dev.fr</a></p>
+                    <p><strong>Adresse :</strong> Paris, France</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="mentionsModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title">Mentions Légales</h2>
+                <button class="modal-close" id="closeMentions" aria-label="Fermer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="modal-content">
+                <section class="cgv-section">
+                    <h3>1. Informations légales</h3>
+                    <p><strong>Raison sociale :</strong> ELIX</p>
+                    <p><strong>Forme juridique :</strong> Auto-entrepreneur</p>
+                    <p><strong>Siège social :</strong> Paris, France</p>
+                    <p><strong>Email :</strong> <a href="mailto:contact@elix-dev.fr">contact@elix-dev.fr</a></p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>2. Directeur de la publication</h3>
+                    <p><strong>Responsable de la publication :</strong> ELIX</p>
+                    <p><strong>Contact :</strong> <a href="mailto:contact@elix-dev.fr">contact@elix-dev.fr</a></p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>3. Hébergement du site</h3>
+                    <p>Le site est hébergé par un prestataire technique conforme aux normes en vigueur.</p>
+                    <p>Les données sont stockées et traitées dans le respect de la réglementation applicable en matière de protection des données personnelles.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>4. Propriété intellectuelle</h3>
+                    <p>L'ensemble du contenu de ce site (textes, images, vidéos, logos, icônes, design) est la propriété exclusive d'ELIX, sauf mention contraire.</p>
+                    <p>Toute reproduction, représentation, modification, publication ou adaptation, totale ou partielle, est strictement interdite sans autorisation écrite préalable.</p>
+                    <p>Les marques et logos présents sur le site sont des marques déposées. Toute reproduction non autorisée constitue une contrefaçon sanctionnée par le Code de la Propriété Intellectuelle.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>5. Limitation de responsabilité</h3>
+                    <p>ELIX met tout en œuvre pour offrir aux visiteurs des informations exactes et régulièrement mises à jour. Toutefois, des erreurs ou omissions peuvent survenir.</p>
+                    <p>L'utilisateur du site s'engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis à jour.</p>
+                    <p>ELIX ne saurait être tenu responsable des dommages directs ou indirects qui pourraient résulter de l'accès au site ou de l'utilisation des informations qui y figurent.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>6. Liens hypertextes</h3>
+                    <p>Le site peut contenir des liens vers d'autres sites. ELIX n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu.</p>
+                    <p>La mise en place de liens hypertextes vers le site nécessite une autorisation écrite préalable d'ELIX.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>7. Protection des données personnelles</h3>
+                    <p>Les informations recueillies via le formulaire de contact sont destinées uniquement à ELIX pour le traitement de votre demande.</p>
+                    <p>Conformément au RGPD et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition aux données vous concernant.</p>
+                    <p>Pour exercer ces droits, contactez-nous à : <a href="mailto:contact@elix-dev.fr">contact@elix-dev.fr</a></p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>8. Cookies</h3>
+                    <p>Ce site n'utilise pas de cookies de tracking ou de publicité.</p>
+                    <p>Seuls des cookies techniques essentiels au bon fonctionnement du site peuvent être utilisés.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>9. Droit applicable</h3>
+                    <p>Les présentes mentions légales sont régies par le droit français.</p>
+                    <p>En cas de litige et à défaut d'accord amiable, le litige sera porté devant les tribunaux compétents.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="confidentialiteModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title">Politique de Confidentialité</h2>
+                <button class="modal-close" id="closeConfidentialite" aria-label="Fermer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="modal-content">
+                <section class="cgv-section">
+                    <h3>1. Introduction</h3>
+                    <p>ELIX s'engage à protéger la vie privée de ses utilisateurs et clients. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos données personnelles.</p>
+                    <p>En utilisant ce site ou en nous contactant, vous acceptez les pratiques décrites dans cette politique.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>2. Données collectées</h3>
+                    <p><strong>Informations que vous nous fournissez :</strong></p>
+                    <ul>
+                        <li>Nom, prénom</li>
+                        <li>Adresse email</li>
+                        <li>Numéro de téléphone (si fourni)</li>
+                        <li>Message ou demande envoyée via le formulaire de contact</li>
+                    </ul>
+                    <p><strong>Informations collectées automatiquement :</strong></p>
+                    <ul>
+                        <li>Adresse IP</li>
+                        <li>Type de navigateur et système d'exploitation</li>
+                        <li>Pages visitées et durée de visite</li>
+                        <li>Données de navigation (uniquement à des fins techniques)</li>
+                    </ul>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>3. Utilisation des données</h3>
+                    <p>Vos données personnelles sont utilisées exclusivement pour :</p>
+                    <ul>
+                        <li>Répondre à vos demandes de contact et questions</li>
+                        <li>Vous fournir les services demandés</li>
+                        <li>Améliorer notre site et nos services</li>
+                        <li>Vous envoyer des informations relatives à nos services (avec votre consentement)</li>
+                    </ul>
+                    <p>ELIX ne vend, ne loue, ni ne partage vos données personnelles avec des tiers à des fins commerciales.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>4. Base légale du traitement</h3>
+                    <p>Le traitement de vos données repose sur :</p>
+                    <ul>
+                        <li><strong>Votre consentement</strong> lorsque vous remplissez le formulaire de contact</li>
+                        <li><strong>L'exécution d'un contrat</strong> lorsque nous fournissons des services</li>
+                        <li><strong>Notre intérêt légitime</strong> pour améliorer nos services et assurer la sécurité du site</li>
+                    </ul>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>5. Conservation des données</h3>
+                    <p>Vos données personnelles sont conservées uniquement le temps nécessaire aux finalités pour lesquelles elles ont été collectées :</p>
+                    <ul>
+                        <li>Demandes de contact : 3 ans maximum après le dernier contact</li>
+                        <li>Données de navigation : durée de la session</li>
+                        <li>Contrats clients : durée du contrat + 5 ans (obligations légales)</li>
+                    </ul>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>6. Vos droits (RGPD)</h3>
+                    <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+                    <ul>
+                        <li><strong>Droit d'accès :</strong> obtenir une copie de vos données personnelles</li>
+                        <li><strong>Droit de rectification :</strong> corriger des données inexactes ou incomplètes</li>
+                        <li><strong>Droit à l'effacement :</strong> demander la suppression de vos données</li>
+                        <li><strong>Droit à la limitation du traitement :</strong> demander de limiter l'utilisation de vos données</li>
+                        <li><strong>Droit à la portabilité :</strong> récupérer vos données dans un format structuré</li>
+                        <li><strong>Droit d'opposition :</strong> vous opposer au traitement de vos données</li>
+                        <li><strong>Droit de retirer votre consentement :</strong> à tout moment</li>
+                    </ul>
+                    <p>Pour exercer ces droits, contactez-nous à : <strong><a href="mailto:contact@elix-dev.fr">contact@elix-dev.fr</a></strong></p>
+                    <p>Vous disposez également du droit d'introduire une réclamation auprès de la CNIL (Commission Nationale de l'Informatique et des Libertés).</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>7. Sécurité des données</h3>
+                    <p>ELIX met en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre :</p>
+                    <ul>
+                        <li>L'accès non autorisé</li>
+                        <li>La perte, la destruction ou l'altération accidentelle</li>
+                        <li>La divulgation ou l'utilisation illicite</li>
+                    </ul>
+                    <p>Les données sont transmises de manière sécurisée et stockées sur des serveurs protégés.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>8. Cookies</h3>
+                    <p>Ce site utilise uniquement des cookies techniques essentiels au bon fonctionnement du site.</p>
+                    <p>Aucun cookie de tracking, de publicité ou d'analyse n'est utilisé.</p>
+                    <p>Vous pouvez configurer votre navigateur pour refuser les cookies, mais cela peut affecter certaines fonctionnalités du site.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>9. Transferts de données</h3>
+                    <p>Vos données personnelles sont hébergées et traitées au sein de l'Union Européenne.</p>
+                    <p>En cas de transfert hors UE (par exemple pour l'utilisation de services tiers), nous nous assurons que des garanties appropriées sont en place conformément au RGPD.</p>
+                </section>
+
+                <section class="cgv-section">
+                    <h3>10. Modifications de la politique</h3>
+                    <p>ELIX se réserve le droit de modifier cette politique de confidentialité à tout moment.</p>
+                    <p>Toute modification sera publiée sur cette page avec une date de mise à jour.</      </p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
